@@ -47,5 +47,5 @@ Resources deployed:
   - Rest API URL: https://s26c58spfj.execute-api.us-east-1.amazonaws.com/api/
 ```
 
-This command will print both the Lambda ARN and its REST API URL; you can now
-get predictions by sending Doppler requests to the REST API URL.
+You can now get predictions by sending Doppler requests to the REST API URL. Note, you can 
+also find the ARN and REST API URL in the `.chalice/deployed` folder.
