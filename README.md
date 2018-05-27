@@ -38,6 +38,13 @@ $ pip install -r requirements.txt
 Next, create and deploy a lambda function:
 ```
 $ chalice deploy
+Creating deployment package.
+Creating IAM role: sentiment-dev
+Creating lambda function: sentiment-dev
+Creating Rest API
+Resources deployed:
+  - Lambda ARN: arn:aws:lambda:us-east-1:017491206004:function:sentiment-dev
+  - Rest API URL: https://s26c58spfj.execute-api.us-east-1.amazonaws.com/api/
 ```
 
 This command will print both the Lambda ARN and its REST API URL; you can now
